@@ -1,20 +1,20 @@
-# Çalışan Yönetim Sistemi
+# Employee Management System
 
-Bu proje, bir şirketteki çalışanları yönetmek için bir C programıdır. Bu program, bir çalışanı eklemek, silmek, aramak ve tüm çalışanların ayrıntılarını görüntülemek gibi işlevlere sahiptir.
+This project is a C program for managing employees in a company. This program has functions like adding, deleting, searching an employee and displaying details of all employees.
 
-## Fonksiyonlar
+## Functions
 
-1. `createEmployee`: Bu fonksiyon, yeni bir çalışan oluşturur ve yeni çalışana bir işaretçi döndürür.
-2. `checkDuplicate`: Bu fonksiyon, verilen isimde bir çalışanın zaten var olup olmadığını kontrol eder.
-3. `addEmployee`: Bu fonksiyon, bir çalışanı bağlı listeye ekler.
-4. `deleteEmployee`: Bu fonksiyon, bir çalışanı bağlı listeden siler.
-5. `searchEmployee`: Bu fonksiyon, bir çalışanı bağlı listede arar.
-6. `displayEmployees`: Bu fonksiyon, bağlı listedeki tüm çalışanların ayrıntılarını görüntüler.
+1. `createEmployee`: This function creates a new employee and returns a pointer to the new employee.
+2. `checkDuplicate`: This function checks if an employee with the given name already exists.
+3. `addEmployee`: This function adds an employee to the linked list.
+4. `deleteEmployee`: This function removes an employee from the linked list.
+5. `searchEmployee`: This function searches for an employee in the linked list.
+6. `displayEmployees`: This function displays the details of all employees in the linked list.
 
-## Kullanım
+## Usage
 
-Programı çalıştırdığınızda, bir menü görüntülenir. Menüdeki seçeneklerden birini seçerek ilgili işlemi gerçekleştirebilirsiniz. Her bir çalışan için bir isim, pozisyon ve maaş girmeniz gerekecektir. Her yeni çalışan için otomatik olarak bir ID oluşturulur.
+When you run the program, a menu is displayed. You can perform the relevant operation by selecting one of the options in the menu. You will need to enter a name, position and salary for each employee. An ID is automatically created for each new employee.
 
-## Lisans
+## License
 
-Bu proje MIT Lisansı altında lisanslanmıştır.
+This project is licensed under the MIT License.
